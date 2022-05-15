@@ -550,7 +550,7 @@ hr{
 }
 
 /*==============================================MEDIA QUERIES===================================================/*/
-@media only screen and (max-width: 480px) and (min-width: 320px){
+@media only screen and (max-width: 480px) and (min-width: 300px){
     body{
         overflow-x: hidden;
     }
@@ -589,6 +589,7 @@ hr{
         padding:0 3%;
     }
     .features-flex-box-3{
+        text-align: start;
         padding:0;
     }#features-two{
         padding:0 3%;
@@ -693,7 +694,7 @@ hr{
         font-size:1.3rem;
     }
     .people{
-        width:340px;
+        width:100%;
     }
     #cta-section{
         flex-direction: column;
@@ -719,5 +720,348 @@ hr{
         flex-direction: column;
         padding:2% 3%;
         font-size:1.2rem;
+    }    
+}
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    body{
+        overflow-x: hidden;
+    }
+    #hero{
+        padding:3% 3%;
+        flex-direction: column;
+    }
+    .snicker{
+        width:250px;
+    }
+    .hero-1{
+        width:100%;
+    }
+    .hero-1 h1{
+        font-size:3.0rem;
+    }
+    .hero-1 p{
+        font-size:1.2rem;
+    }
+    .hero-1 button{
+        font-size:1.3rem;
+    }
+    .hero-2{
+        display:none; 
+    }
+    #features{
+        padding:3%;
+    }
+    #features h1{
+        font-size:3.0rem;
+        margin-top:5%;
+    }
+    .features-flex{
+        flex-direction: column;
+        height:1000px;
+        padding:0 3%;
+    }
+    .features-flex-box-1{
+        padding:0;
+    }
+    .features-flex-box-3{
+        padding:0;
+    }#features-two{
+        padding:0 3%;
+    }
+    .features-flex-box-2a{
+        align-self: flex-start;
+        padding:0 3%;
+    }
+    .stray-image{
+        display:none;
+    }
+    .first{
+
+        flex-direction: column;
+    }
+    .second{
+        flex-direction: column;
+        margin-top:3%;
+    }
+    #first-btn{
+        font-size:1.3rem;
+    }
+    #second-btn{
+        font-size:1.3rem;
+    }
+    .first{
+        width:90%;
+        font-size:1.2rem;
+    }
+    .first-text{
+        margin-left:10%;
+        padding:0 2%;
+        width:110%;
+    }
+    .second{
+        width:90%;
+        font-size:1.2rem;
+    }
+    .second-text{
+        margin-left:10%;
+        padding:0 2%;
+        width:120%;
+    }
+    .first img{
+        align-self:center;
+        width:200px;
+    }
+    .second img{
+        width:200px;
+        align-self: center;
+    }
+    .flex-img-1{
+        width:250px;
+    }
+    .flex-img-2{
+        width:250px;
+    }
+    .flex-img-3{
+        width:250px;
+    }
+    #testimonials{
+        padding:0 3%;
+    }
+    .testimonial-header1{
+        width:100%;
+    }
+    .testimonial-header{
+        width:120%;
+        font-size:1.7rem;
+        text-align: center;
+    }
+    .bald{
+        width:70px;
+    }
+    .afro{
+        width:100px;
+    }
+    .para-2{
+        margin:0 auto;
+        font-size:1.0rem;
+    }
+    .chinese-lady{
+       display:none;
+    }
+    .afro-guy{
+        display:none
+    }
+    .chinese-guy{
+        width:80px;
+    }
+    .indian-guy{
+        width:80px;
+    }
+    .chinese-guy-first{
+        margin-top:5%;
+    }
+    .indian-guy-first{
+        margin-top:5%;
+    }
+    .txt-h1{
+        font-size:1.7rem;
+    }
+    .txt-para{
+        font-size:1.3rem;
+    }
+    .people{
+        width:100%;
+    }
+    #cta-section{
+        
+        padding:3% 3%;
+        font-size:1.2rem;
+    }
+    .cta-txt{
+        font-size:1.4rem;
+    }
+    #footer{
+        font-size:1.4rem;
+        padding:3% 3%;
+    }
+    .logo-footer{
+        margin-top:5%;
+        margin-left:35%;
+        width:100px;
+    }
+    .footer-2{
+        grid-template-columns: repeat(2,1fr);
+    }
+    #contact{
+        
+        padding:2% 3%;
+        font-size:1.2rem;
+    }    
+}
+@media only screen and (max-width: 1024px) and (min-width: 769px){
+    body{
+        overflow-x: hidden;
+    }
+    #hero{
+        padding:3% 3%;
+        flex-direction: column;
+    }
+    .snicker{
+        width:250px;
+    }
+    .hero-1{
+        width:100%;
+    }
+    .hero-1 h1{
+        font-size:3.0rem;
+    }
+    .hero-1 p{
+        font-size:1.2rem;
+    }
+    .hero-1 button{
+        font-size:1.3rem;
+    }
+    .hero-2{
+        display:none; 
+    }
+    #features{
+        padding:3%;
+    }
+    #features h1{
+        font-size:3.0rem;
+        margin-top:5%;
+    }
+    .features-flex{
+        flex-direction: column;
+        height:1000px;
+        padding:0 3%;
+    }
+    .features-flex-box-3{
+        padding:0;
+    }#features-two{
+        padding:0% 3%;
+    }
+    .features-flex-box-2a{
+        padding:0 3%;
+        align-self: flex-start;
+    }
+    .stray-image{
+        display:none;
+    }
+    .first{
+        flex-direction: column;
+        width:90%;
+        font-size:1.2rem;
+    }
+    .second{
+        width:90%;
+        font-size:1.2rem;
+        flex-direction: column;
+        margin-top:3%;
+    }
+    #first-btn{
+        font-size:1.3rem;
+    }
+    #second-btn{
+        font-size:1.3rem;
+    }
+    .first-text{
+        margin-left:10%;
+        padding:0 2%;
+        width:110%;
+    }
+    .second-text{
+        margin-left:10%;
+        padding:0 2%;
+        width:120%;
+    }
+    .first img{
+        align-self:center;
+        width:200px;
+    }
+    .second img{
+        width:200px;
+        align-self: center;
+    }
+    .flex-img-1{
+        width:250px;
+    }
+    .flex-img-2{
+        width:250px;
+    }
+    .flex-img-3{
+        width:250px;
+    }
+    #testimonials{
+        padding:0 3%;
+    }
+    .testimonial-header1{
+        width:100%;
+        text-align: center;
+    }
+    .testimonial-header{
+        width:110%;
+        font-size:1.7rem;
+    }
+    .bald{
+        width:70px;
+    }
+    .afro{
+        width:100px;
+    }
+    .para-2{
+        margin:0 auto;
+        font-size:1.6rem;
+        
+    }
+    .chinese-lady{
+       display:none;
+    }
+    .afro-guy{
+        display:none
+    }
+    .chinese-guy{
+        width:80px;
+    }
+    .indian-guy{
+        width:80px;
+    }
+    .chinese-guy-first{
+        margin-top:5%;
+    }
+    .indian-guy-first{
+        margin-top:5%;
+    }
+    .txt-h1{
+        font-size:1.7rem;
+    }
+    .txt-para{
+        font-size:1.3rem;
+    }
+    .people{
+        width:100%;
+    }
+    #cta-section{
+        padding:3% 3%;
+        font-size:1.7rem;
+    }
+    .cta-txt{
+        font-size:1.2rem;
+    }
+    #footer{
+        font-size:1.7rem;
+        padding:3% 3%;
+    }
+    .logo-footer{
+        margin-top:5%;
+        margin-left:35%;
+        width:100px;
+    }
+    .footer-2{
+        grid-template-columns: repeat(2,1fr);
+    }
+    #contact{
+        padding:2% 3%;
+        font-size:1.5rem;
     }    
 }
