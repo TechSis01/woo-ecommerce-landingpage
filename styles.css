@@ -1,6 +1,6 @@
-/*{
+*{
     outline:1px solid red;
-}*/
+}
 html{
     box-sizing: border-box;
     font-size:62.5%;
@@ -550,7 +550,9 @@ hr{
 
 /*==============================================MEDIA QUERIES===================================================/*/
 @media only screen and (max-width: 480px) and (min-width: 320px){
-
+    body{
+        overflow-x: hidden;
+    }
     #hero{
         padding:3% 3%;
         flex-direction: column;
@@ -597,6 +599,7 @@ hr{
         display:none;
     }
     .first{
+
         flex-direction: column;
     }
     .second{
