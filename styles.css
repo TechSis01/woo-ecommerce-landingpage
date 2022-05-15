@@ -550,22 +550,9 @@ hr{
 
 /*==============================================MEDIA QUERIES===================================================/*/
 @media only screen and (max-width: 480px) and (min-width: 320px){
-    nav{
-        width:80%;
-        font-size:1.0rem;
-    }
-    nav img{
-        width:80px;
-    }
-    .nav-links-2{
-        
-        margin-right: 5%;
-    }
-    .get-started-btn{
-        width: 100%;
-    }
+
     #hero{
-        padding:0 3%;
+        padding:3% 3%;
         flex-direction: column;
     }
     .snicker{
@@ -575,7 +562,6 @@ hr{
         width:100%;
     }
     .hero-1 h1{
-        
         font-size:3.0rem;
     }
     .hero-1 p{
@@ -590,9 +576,13 @@ hr{
     #features{
         padding:3%;
     }
+    #features h1{
+        font-size:3.0rem;
+        margin-top:20%;
+    }
     .features-flex{
         flex-direction: column;
-        height:1500px;
+        height:1000px;
         padding:0 3%;
     }
     .features-flex-box-3{
@@ -611,6 +601,7 @@ hr{
     }
     .second{
         flex-direction: column;
+        margin-top:3%;
     }
     #first-btn{
         font-size:1.3rem;
@@ -619,10 +610,22 @@ hr{
         font-size:1.3rem;
     }
     .first{
-        font-size:1.4rem;
+        width:90%;
+        font-size:1.2rem;
+    }
+    .first-text{
+        margin-left:15%;
+        padding:0 2%;
+        width:120%;
     }
     .second{
-        font-size:1.4rem;
+        width:90%;
+        font-size:1.2rem;
+    }
+    .second-text{
+        margin-left:15%;
+        padding:0 2%;
+        width:120%;
     }
     .first img{
         align-self:center;
@@ -633,10 +636,13 @@ hr{
         align-self: center;
     }
     .flex-img-1{
-        width:350px;
+        width:250px;
     }
     .flex-img-2{
-        width:330px;
+        width:250px;
+    }
+    .flex-img-3{
+        width:250px;
     }
     #testimonials{
         padding:0 3%;
@@ -655,15 +661,26 @@ hr{
         width:100px;
     }
     .para-2{
+        margin:0 auto;
         font-size:1.0rem;
     }
     .chinese-lady{
-        width:100px;
-        height:100px;
-        justify-self: center;
+       display:none;
     }
     .afro-guy{
-        width:100px;
+        display:none
+    }
+    .chinese-guy{
+        width:80px;
+    }
+    .indian-guy{
+        width:80px;
+    }
+    .chinese-guy-first{
+        margin-top:5%;
+    }
+    .indian-guy-first{
+        margin-top:5%;
     }
     .txt-h1{
         font-size:1.7rem;
@@ -676,10 +693,20 @@ hr{
     }
     #cta-section{
         flex-direction: column;
-        padding:0 3%;
+        padding:3% 3%;
+        font-size:1.2rem;
+    }
+    .cta-txt{
+        font-size:1.2rem;
     }
     #footer{
-        padding:0 3%;
+        font-size:1.1rem;
+        padding:3% 3%;
+    }
+    .logo-footer{
+        margin-top:5%;
+        margin-left:35%;
+        width:100px;
     }
     .footer-2{
         grid-template-columns: repeat(2,1fr);
@@ -687,5 +714,6 @@ hr{
     #contact{
         flex-direction: column;
         padding:2% 3%;
+        font-size:1.2rem;
     }
 }
